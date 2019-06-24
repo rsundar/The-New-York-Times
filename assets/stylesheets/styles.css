@@ -124,6 +124,20 @@ text-align: left;
     left:0;
     text-align: left;
 }
-
-
 /*END of article heading */
+
+/*BEGIN of article image*/
+.phy-image{
+   width:100rem;
+   height:50rem;
+   
+}
+.article-image{
+    position: relative;
+    left:20rem;
+    width:80rem;
+}
+#phy-caption{
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
