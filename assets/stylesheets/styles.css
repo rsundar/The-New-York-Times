@@ -103,22 +103,21 @@ nav .log-in-btn {
 
 /* BEGIN of article heading*/
 .article-heading{
-width:30%;
-padding: 0;
-position:relative;
-left:20em;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-style: italic;
-font-size: 2rem;
-margin-top: 0.25em;
-margin-bottom: 0.25em;
-
-
+    width:30%;
+    padding: 0;
+    position:relative;
+    left:20em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
 }
+
 .article-heading .main-heading{
-
-text-align: left;
+    text-align: left;
 }
+
 .big-bang{
     position: relative;
     left:0;
@@ -129,15 +128,17 @@ text-align: left;
 /*BEGIN of article image*/
 .phy-image{
    width:100rem;
-   height:50rem;
-   
+   height:50rem;   
 }
+
 .article-image{
     position: relative;
     left:20rem;
     width:80rem;
 }
+
 #phy-caption{
     font-size: 1.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
+/*END of article image styling*/
