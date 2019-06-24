@@ -7,7 +7,11 @@ a:hover{
     text-decoration: underline;
 }
 
-.fas {
+body {
+    margin-top: 8rem;
+}
+
+.fas{
     color: black;
     font-size: 1.5rem;
     margin-right: 2em;
@@ -17,10 +21,11 @@ a:hover{
 
 /*BEGIN nav bar styling*/
 nav .top-nav-bar-container {
-    position: sticky;
+    position: fixed;
     height: 3.6rem;
     width: 100%;
     margin-bottom: 1rem;
+    margin-top: -8rem;
     background: #f7f7f7;
     border-bottom: 1px solid #e0dcd7;
     z-index: 10;
@@ -43,6 +48,7 @@ nav div.top-nav-bar-container > div {
 nav .top-nav-bar-container .right-side-container {
     position: relative;
     float: right;
+    right: 1rem;
     text-align: end;
     width: 25%;
 }
@@ -125,7 +131,7 @@ nav .log-in-btn {
 }
 /*END of article heading */
 
-/*BEGIN of article image*/
+/*BEGIN of article image styling*/
 .phy-image{
    width:100rem;
    height:50rem;   
@@ -137,8 +143,77 @@ nav .log-in-btn {
     width:80rem;
 }
 
-#phy-caption{
-    font-size: 1.5rem;
+figcaption#main-image{
+    font-size: 1.65rem;
     font-family: 'Times New Roman', Times, serif;
 }
+
+span.description {
+    display: inline-block;
+    position: relative;
+    left:0;
+    text-align: left;
+    color: #666666;
+    line-height: 1.25em;
+}
+
+span.credit {
+    font-size: 1.2rem;
+    color: #888888;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    text-align: left;
+}
 /*END of article image styling*/
+
+/*BEGIN Author section styling*/
+.author-name-container {
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    color: #121212;
+    left: 25%;
+}
+
+.article-toolbar {
+    position: relative;
+    left: 25%;
+    width: 60%;
+    height: 3.2rem;
+}
+
+.published-date {
+    font-size: 1.2rem;
+    display: inline-block;
+    width:20%;
+    position: relative;
+    left: 0;
+}
+
+.toolbar-icons {
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    width: 50%;
+}
+
+div.toolbar-icons>ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toolbar-icons>ul>li {
+    display: inline-block;
+}
+
+.icon-btn {
+    border-radius: 50%;
+    border: 1px solid #888888;
+    display: inline-block;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+/*END Author section styling*/
