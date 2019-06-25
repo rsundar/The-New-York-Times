@@ -22,7 +22,7 @@ body {
 /*BEGIN nav bar styling*/
 nav .top-nav-bar-container {
     position: fixed;
-    height: 3.6rem;
+    height: 4rem;
     width: 100%;
     margin-bottom: 1rem;
     margin-top: -8rem;
@@ -43,6 +43,7 @@ nav div.top-nav-bar-container > div {
     height: 100%;
     width: 20%;
     display: inline-block;
+    margin-top: 0.4rem;
 }
 
 nav .top-nav-bar-container .right-side-container {
@@ -65,7 +66,6 @@ nav .top-nav-bar-container .logo-container {
 nav .top-nav-bar-container .left-side-container {
     position: relative;
     float: left;
-    background: #f7f7f7;
 }
 
 nav div.left-side-container > a > p {
@@ -210,8 +210,10 @@ div.toolbar-icons>ul {
 
 .icon-btn {
     border-radius: 50%;
-    border: 1px solid #888888;
-    display: inline-block;
+    border: none;
+    height: 3.3rem;
+    width: 3.3rem;
+    background: #eeeeee;
     margin-right: 0.5rem;
     cursor: pointer;
 }
