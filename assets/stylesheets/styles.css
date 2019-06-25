@@ -3,8 +3,13 @@
     font-size: 10px;
 }
 
-a:hover{
+a {
+    text-decoration: none;
+}
+
+a:hover {
     text-decoration: underline;
+    color: inherit;
 }
 
 body {
@@ -232,3 +237,30 @@ div.toolbar-icons>ul {
     text-align: left;
 }
 /*END article section styling*/
+
+/*BEGIN Editor's picks styling section*/
+.editor-picks-container {
+    width: 20%;
+    position: relative;
+    float: right;
+    right: 2%;
+}
+
+.sidebar-heading {
+    font-size: 1.4rem;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+div.sidebar-story > p {
+    display: block;
+    font-size: 1.6rem;
+    position: relative;
+    float: right;
+    width: 60%;
+    color: #121212;
+}
+
+div.sidebar-story > p > a {
+    color: inherit;
+}
+/*END Editor's picks styling section*/
