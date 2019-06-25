@@ -217,5 +217,18 @@ div.toolbar-icons>ul {
     margin-right: 0.5rem;
     cursor: pointer;
 }
-
 /*END Author section styling*/
+
+/*BEGIN article section styling*/
+.article-paragraph {
+    display: block;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman';
+    margin-top: 1.3em;
+    width: 48.5%;
+    position: relative;
+    left: 25%;
+    line-height: 1.6em;
+    text-align: left;
+}
+/*END article section styling*/
