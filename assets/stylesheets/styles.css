@@ -4,7 +4,7 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -262,5 +262,39 @@ div.sidebar-story > p {
 
 div.sidebar-story > p > a {
     color: inherit;
+    text-decoration: none;
 }
 /*END Editor's picks styling section*/
+
+/*BEGIN Subscribe aside styling section*/
+.subscribe-science-times-container {
+    width: 12.5%;
+    position: relative;
+    float: right;
+    right: 10%;
+}
+
+div.subscribe-science-times-container > p {
+    color: #888888;
+}
+.subscribe-heading {
+    font-size: 1.5rem;
+    margin-bottom:0rem;
+}
+
+.sign-up-btn {
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2em;
+    width: 95%;
+    border-radius: 0.2em;
+    background: #326981;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background: #314191;
+}
+/*END Subscribe aside styling section*/
