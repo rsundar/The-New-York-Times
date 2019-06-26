@@ -10,6 +10,7 @@ a {
 a:hover {
     text-decoration: underline;
     color: inherit;
+    cursor:pointer;
 }
 
 body {
@@ -317,4 +318,23 @@ div.subscribe-science-times-container > p {
     font-size: 1.4rem;
     color: #999999;
     width:50%;
+}
+.article-paragraph .version{
+    color:#666666;
+    font-size:1.3rem;
+    line-height:0.7rem;
+}
+/*read comment button */
+.read-comment{
+    padding: 1rem 8rem;
+    color:white;
+    font-weight: bold;
+    background-color:#6288A5;
+    border-radius: 0.2rem;
+    font-size: 1.3rem;
+    font-family:nyt-franklin, helvetica, arial, sans-serif;
+    position:sticky;
+    left:34rem;
+    border: none;
+    margin-top: 2rem;
 }
