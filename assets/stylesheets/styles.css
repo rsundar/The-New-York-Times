@@ -300,12 +300,7 @@ div.subscribe-science-times-container > p {
 /*END Subscribe aside styling section*/
 
 /*BEGIN of inflation theory section*/
- .theory-container
-{
-}
-.theory-div{
-
-}
+ 
 /* END of inflation theory section*/
 
 /*BEGIN of main article*/
@@ -315,4 +310,11 @@ div.subscribe-science-times-container > p {
     font-size: 1.4rem;
     color: #999999;
     line-height: 0.5em;
+}
+.bicep-caption{
+    position:relative;
+    left:33rem;
+    font-size: 1.4rem;
+    color: #999999;
+    width:50%;
 }
