@@ -298,3 +298,21 @@ div.subscribe-science-times-container > p {
     background: #314191;
 }
 /*END Subscribe aside styling section*/
+
+/*BEGIN of inflation theory section*/
+ .theory-container
+{
+}
+.theory-div{
+
+}
+/* END of inflation theory section*/
+
+/*BEGIN of main article*/
+.video-caption{
+    position:relative;
+    left:33rem;
+    font-size: 1.4rem;
+    color: #999999;
+    line-height: 0.5em;
+}
