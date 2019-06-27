@@ -405,9 +405,12 @@ button.read-comments-btn:hover {
 /*BEGIN of most-popular-articles*/
 .most-popular{
     
-    width: 20%;
+    width: 30%;
     position: relative;
     float: right;
-    right: 2%;
-   
+    right: 0%;
+    top:-70rem;
+}
+.most-p-word{
+    font-size: 1.6rem;
 }
