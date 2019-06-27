@@ -349,3 +349,54 @@ button.read-comments-btn:hover {
     background: #314191;
 }
 /*END Read comments button styling*/
+
+/*BEGIN Recommendations section styling*/
+.recommended-container {
+    width: 60%;
+    position: relative;
+    left: 5%;
+    margin-top: 8rem;
+}
+.recommended-container:before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+.recommended-container:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+
+.recommended-row {
+    display: block;
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 3rem;
+}
+
+.recommended-item {
+    display:inline-block;
+    width: 30%;
+    position: relative;
+    text-align: justify;
+    margin-right: 2.5%;
+}
+
+.recommended-caption {
+    position:relative;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 0.5em;
+}
+
+#adjustment {
+    top: 2.5%;
+}
+/*END Recommendations section styling*/
