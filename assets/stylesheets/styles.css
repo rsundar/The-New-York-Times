@@ -236,6 +236,11 @@ div.toolbar-icons>ul {
     line-height: 1.6em;
     text-align: left;
 }
+
+#article-footer {
+    font-size:1.1rem;
+    color: #666666;
+}
 /*END article section styling*/
 
 /*BEGIN Editor's picks styling section*/
