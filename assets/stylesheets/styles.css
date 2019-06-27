@@ -401,3 +401,13 @@ button.read-comments-btn:hover {
     top: 2.5%;
 }
 /*END Recommendations section styling*/
+
+/*BEGIN of most-popular-articles*/
+.most-popular{
+    
+    width: 20%;
+    position: relative;
+    float: right;
+    right: 2%;
+   
+}
