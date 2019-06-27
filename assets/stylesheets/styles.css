@@ -317,6 +317,7 @@ div.subscribe-science-times-container > p {
     width:45%;
     margin-top:0.5rem;
 }
+
 .video-caption{
     position:relative;
     left:33rem;
@@ -325,3 +326,21 @@ div.subscribe-science-times-container > p {
     line-height: 0.5em;
 }
 /*END of video caption styling*/
+
+/*BEGIN Read commments button styling*/
+button.read-comments-btn{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2em;
+    width: 42.5%;
+    border-radius: 0.2em;
+    background: #326981;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.read-comments-btn:hover {
+    background: #314191;
+}
+/*END Read comments button styling*/
