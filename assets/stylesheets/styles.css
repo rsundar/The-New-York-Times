@@ -310,7 +310,12 @@ div.subscribe-science-times-container > p {
 }
 /* END of inflation theory section*/
 
-/*BEGIN of main article*/
+/*BEGIN of video caption styling*/
+#bicep2 {
+    font-size: 1.4rem;
+    color: #666666;
+    width:45%;
+}
 .video-caption{
     position:relative;
     left:33rem;
@@ -318,3 +323,4 @@ div.subscribe-science-times-container > p {
     color: #999999;
     line-height: 0.5em;
 }
+/*END of video caption styling*/
