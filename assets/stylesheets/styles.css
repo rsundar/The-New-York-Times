@@ -237,6 +237,11 @@ div.toolbar-icons>ul {
     line-height: 1.6em;
     text-align: left;
 }
+
+#article-footer {
+    font-size:1.1rem;
+    color: #666666;
+}
 /*END article section styling*/
 
 /*BEGIN Editor's picks styling section*/
@@ -301,10 +306,24 @@ div.subscribe-science-times-container > p {
 /*END Subscribe aside styling section*/
 
 /*BEGIN of inflation theory section*/
- 
+ .theory-img-container iframe{
+    width:75%;
+    height: 72rem;
+    position: relative;
+    left: 15%;
+    border: none;
+    overflow: hidden;
+}
 /* END of inflation theory section*/
 
-/*BEGIN of main article*/
+/*BEGIN of video caption styling*/
+#bicep2 {
+    font-size: 1.4rem;
+    color: #666666;
+    width:45%;
+    margin-top:0.5rem;
+}
+
 .video-caption{
     position:relative;
     left:33rem;
@@ -312,29 +331,73 @@ div.subscribe-science-times-container > p {
     color: #999999;
     line-height: 0.5em;
 }
-.bicep-caption{
-    position:relative;
-    left:33rem;
-    font-size: 1.4rem;
-    color: #999999;
-    width:50%;
-}
-.article-paragraph .version{
-    color:#666666;
-    font-size:1.3rem;
-    line-height:0.7rem;
-}
-/*read comment button */
-.read-comment{
-    padding: 1rem 8rem;
-    color:white;
-    font-weight: bold;
-    background-color:#6288A5;
-    border-radius: 0.2rem;
-    font-size: 1.3rem;
-    font-family:nyt-franklin, helvetica, arial, sans-serif;
-    position:sticky;
-    left:34rem;
+/*END of video caption styling*/
+
+/*BEGIN Read commments button styling*/
+button.read-comments-btn{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2em;
+    width: 42.5%;
+    border-radius: 0.2em;
+    background: #326981;
+    color: white;
     border: none;
-    margin-top: 2rem;
+    cursor: pointer;
 }
+
+button.read-comments-btn:hover {
+    background: #314191;
+}
+/*END Read comments button styling*/
+
+/*BEGIN Recommendations section styling*/
+.recommended-container {
+    width: 60%;
+    position: relative;
+    left: 5%;
+    margin-top: 8rem;
+}
+.recommended-container:before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+.recommended-container:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+
+.recommended-row {
+    display: block;
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 3rem;
+}
+
+.recommended-item {
+    display:inline-block;
+    width: 30%;
+    position: relative;
+    text-align: justify;
+    margin-right: 2.5%;
+}
+
+.recommended-caption {
+    position:relative;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 0.5em;
+}
+
+#adjustment {
+    top: 2.5%;
+}
+/*END Recommendations section styling*/
