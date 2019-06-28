@@ -418,3 +418,14 @@ button.read-comments-btn:hover {
     padding-top: 1rem;
     border-color:#c7c7c7;
 }
+/* END of most popular articles*/
+
+/* BEGIN of more-editors-pick*/
+.more-editors-picks{
+float:left;
+margin:1rem;
+}
+.editors-pic-container .more-editors-pic
+{
+
+}
