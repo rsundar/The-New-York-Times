@@ -14,9 +14,7 @@ a:hover {
 }
 
 body {
-    height: 100%;
     margin-top: 8rem;
-    border: 1px solid transparent;
 }
 
 .fas{
@@ -357,7 +355,7 @@ button.read-comments-btn:hover {
 .recommended-container {
     width: 60%;
     position: relative;
-    left: 5%;
+    left: 2%;
     margin-top: 8rem;
 }
 .recommended-container:before {
@@ -403,9 +401,10 @@ button.read-comments-btn:hover {
 /*BEGIN of most popular articles*/
 .most-popular{
     width: 25%;
+    display: inline-block;
     position: relative;
-    left: 65%;
-    top: -70.6rem;
+    left: 62%;
+    margin-top: -70.6rem;
 }
 .most-popular::before {
     content: ""; 
@@ -433,7 +432,23 @@ button.read-comments-btn:hover {
 .editors-picks-container {
     width: 60%;
     position: relative;
-    left: 5%;
-    top: -87.6rem;
+    left: 2%;
+    margin-top: -18rem;
 }
 /*END editor's picks styling*/
+
+/*BEGIN footer links styling section*/
+.footer1 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.footer-logo-container {
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    margin-top: 0.25rem;
+    width: 25%;
+    height: 3rem;
+}
+/*END footer links styling section*/
