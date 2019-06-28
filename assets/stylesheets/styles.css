@@ -408,9 +408,13 @@ button.read-comments-btn:hover {
     width: 30%;
     position: relative;
     float: right;
-    right: 0%;
+    right: 5em;
+
     top:-70rem;
 }
 .most-p-word{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    border-top: solid 1px;
+    padding-top: 1rem;
+    border-color: #888888;
 }
