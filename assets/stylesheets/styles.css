@@ -14,7 +14,9 @@ a:hover {
 }
 
 body {
+    height: 100%;
     margin-top: 8rem;
+    border: 1px solid transparent;
 }
 
 .fas{
@@ -396,21 +398,42 @@ button.read-comments-btn:hover {
     color: #999999;
     line-height: 0.5em;
 }
-
-#adjustment {
-    top: 2.5%;
-}
 /*END Recommendations section styling*/
 
-/*BEGIN of most-popular-articles*/
+/*BEGIN of most popular articles*/
 .most-popular{
-    
-    width: 30%;
+    width: 25%;
     position: relative;
-    float: right;
-    right: 0%;
-    top:-70rem;
+    left: 65%;
+    top: -70.6rem;
 }
+.most-popular::before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+
+.most-p-tag {
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
+}
+
 .most-p-word{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e2e2;
 }
+/*END most popular articles styling*/
+
+/*BEGIN editor's picks styling*/
+.editors-picks-container {
+    width: 60%;
+    position: relative;
+    left: 5%;
+    top: -87.6rem;
+}
+/*END editor's picks styling*/
