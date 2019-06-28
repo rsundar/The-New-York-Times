@@ -403,17 +403,24 @@ button.read-comments-btn:hover {
 /*END Recommendations section styling*/
 
 /*BEGIN of most-popular-articles*/
-
+.most-popular:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 2rem;
+    border-bottom: 1px solid black;
+}
 .most-popular{
     
     width: 25%;
     position: relative;
     float: right;
     left: -12rem;
-    top:2rem;
-    padding-bottom:7rem;
-    margin-bottom: 7rem;
-    bottom: 7rem;
+    top:0rem;
+    padding-bottom:25rem;
+    margin-bottom: 25rem;
+    bottom: 70rem;
     
 }
 .most-p-word{
@@ -425,6 +432,10 @@ button.read-comments-btn:hover {
 /* END of most popular articles*/
 
 /* BEGIN of more-editors-pick*/
+.the-editor{
+    padding:2rem;
+    height: 30rem;
+}
 .more-editors-picks{
 float:left;
 margin:0.5rem;
@@ -437,17 +448,27 @@ width:60%;
 }
 
 /*BEGIN of nav info */
+.nav-info::before {
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: 0px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 2px solid rgb(226, 226, 226);
+}
 .nav-info{
-    margin-top:0;
-
+ border:  0.1rem; 
+ height: 40rem;   
+ margin-top: 4rem;
 }
 .nav-info-header>li{
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: oblique;
+    font-style: inherit;
     list-style: none;
 }
 .nav-info-header{
-    display:inline-block;
+    float:left;
+   
 }
 /*END of nav info */
