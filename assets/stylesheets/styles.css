@@ -449,7 +449,53 @@ button.read-comments-btn:hover {
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
     margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
     width: 25%;
     height: 3rem;
+}
+
+.footer1:before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 2rem; 
+    border-top: double #e2e2e2; 
+}
+
+.footer-column {
+    display:inline-block;
+    position: relative;
+}
+
+.cloumn2, .column3 {
+    padding-left: 6rem;
+}
+
+.column2 {
+    top: -14.5rem;
+}
+
+.column3 {
+    top: -7.3rem;
+}
+
+div.footer-column > ul {
+    list-style: none;
+    padding: 0rem;
+}
+
+div.footer-column > ul > li {
+    font-size: 1.45rem;
+    padding: 0.25em 0em;
+}
+
+div.footer-column > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.footer-column > ul > li > a:hover {
+    text-decoration: underline;
 }
 /*END footer links styling section*/
