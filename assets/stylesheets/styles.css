@@ -468,16 +468,87 @@ button.read-comments-btn:hover {
     position: relative;
 }
 
-.cloumn2, .column3 {
-    padding-left: 6rem;
-}
-
 .column2 {
+    padding-left: 10rem;
     top: -14.5rem;
 }
 
 .column3 {
+    padding-left: 10rem;
     top: -7.3rem;
+}
+
+.column4 {
+    padding-left: 10rem;
+    bottom: 0.04rem;
+}
+
+.column5 {
+    padding-left: 10rem;
+    padding-right: 5rem;
+    bottom: 0.04rem;
+    border-right: 1px solid #e2e2e2;
+}
+
+.final-column {
+    display: inline-block;
+    position: relative;
+    padding-left: 1rem;
+    width: 20%;
+    bottom: 9.2rem;
+}
+
+.link {
+    position: relative;
+    float: right;
+    top: -4.2rem;
+}
+
+.pics-links {
+    list-style: none;
+    padding: 0rem;
+}
+
+ul.pics-links > li {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+
+.footer-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 1rem;
+}
+
+.special-links {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0rem;
+}
+
+.special-links li{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #121212;
+} 
+
+.special-links li:last-child {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.additional-links {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0rem;
+}
+
+.additional-links li {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #121212;
 }
 
 div.footer-column > ul {
