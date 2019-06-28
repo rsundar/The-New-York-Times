@@ -411,6 +411,10 @@ button.read-comments-btn:hover {
     float: right;
     left: -12rem;
     top:2rem;
+    padding-bottom:7rem;
+    margin-bottom: 7rem;
+    bottom: 7rem;
+    
 }
 .most-p-word{
     font-size: 1.8rem;
@@ -433,3 +437,17 @@ width:60%;
 }
 
 /*BEGIN of nav info */
+.nav-info{
+    margin-top:0;
+
+}
+.nav-info-header>li{
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    list-style: none;
+}
+.nav-info-header{
+    display:inline-block;
+}
+/*END of nav info */
