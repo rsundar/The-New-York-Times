@@ -459,8 +459,16 @@ button.read-comments-btn:hover {
     display: block; 
     margin: 0 auto;
     width: 100%; 
-    padding-top: 2rem; 
+    padding-top: 1rem; 
     border-top: double #e2e2e2; 
+}
+.footer1:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 2rem; 
+    border-top: 1px solid #e2e2e2; 
 }
 
 .footer-column {
