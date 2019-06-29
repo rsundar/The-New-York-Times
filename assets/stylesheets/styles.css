@@ -541,6 +541,7 @@ ul.pics-links > li {
 
 ul.pics-links > li:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer-icon {
