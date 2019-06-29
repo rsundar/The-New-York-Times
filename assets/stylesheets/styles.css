@@ -445,6 +445,12 @@ button.read-comments-btn:hover {
     left: 5%;
 }
 
+.footer2 {
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
 .footer-logo-container {
     background-image: url('../images/logo.png');
     background-repeat: no-repeat;
@@ -512,6 +518,14 @@ button.read-comments-btn:hover {
     top: -4.2rem;
 }
 
+.link > a {
+    text-decoration: none;
+}
+
+.link > a:hover {
+    text-decoration: underline;
+}
+
 .pics-links {
     list-style: none;
     padding: 0rem;
@@ -576,5 +590,23 @@ div.footer-column > ul > li > a {
 
 div.footer-column > ul > li > a:hover {
     text-decoration: underline;
+}
+
+.copyright-footer {
+    list-style: none;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+ul.copyright-footer > li {
+    display: inline-block;
+    color: #666666;
+    font-size: 1.2rem;
+    padding: 0rem 0.5rem;
+}
+
+ul.copyright-footer > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 /*END footer links styling section*/
