@@ -539,6 +539,10 @@ ul.pics-links > li {
     padding: 0rem;
 }
 
+ul.pics-links > li:hover {
+    text-decoration: underline;
+}
+
 .footer-icon {
     height: 1.3rem;
     width: 1.3rem;
