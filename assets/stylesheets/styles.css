@@ -1,0 +1,623 @@
+/* BEGIN base styling*/
+:root {
+    font-size: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+    cursor:pointer;
+}
+
+body {
+    margin-top: 8rem;
+}
+
+figure {
+    margin: 0rem;
+    padding: 0rem;
+}
+.fas{
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 2em;
+    margin-top: 0.25em;
+}
+/*END base styling*/
+
+/*BEGIN nav bar styling*/
+nav .top-nav-bar-container {
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    margin-top: -8rem;
+    background: #f7f7f7;
+    border-bottom: 1px solid #e0dcd7;
+    z-index: 10;
+}
+
+nav .top-nav-bar-container:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+nav div.top-nav-bar-container > div {
+    height: 100%;
+    width: 20%;
+    display: inline-block;
+    margin-top: 0.4rem;
+}
+
+nav .top-nav-bar-container .right-side-container {
+    position: relative;
+    float: right;
+    right: 1rem;
+    text-align: end;
+    width: 25%;
+}
+
+nav .top-nav-bar-container .logo-container {
+    position: relative;
+    left: 20%;
+    /*background-image: url('../images/logo.png');
+    background-repeat: no-repeat;*/
+    margin-top: 0.5rem;
+    width: 25%;
+}
+
+nav .top-nav-bar-container .left-side-container {
+    position: relative;
+    float: left;
+}
+
+nav div.left-side-container > a > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
+    margin-top: 0.25em;
+}
+
+nav div.left-side-container > a > p:hover {
+    text-decoration: underline;
+}
+
+nav .subscribe-btn, .log-in-btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.2em;
+    background: #326981;
+    border: 1px solid #314191;
+    color: white;
+    margin-bottom: 0.25em;
+    padding-top: 0.625em;
+    padding-bottom: 0.4em;
+    text-align: center;
+    cursor: pointer;
+}
+
+nav .subscribe-btn {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+nav .subscribe-btn:hover, .log-in-btn:hover {
+    background: #314191;
+}
+nav .log-in-btn {
+    padding-right: 1.125em;
+    padding-left: 1.125em;
+}
+/*END nav bar styling*/
+
+/* BEGIN of article heading*/
+.article-heading{
+    width:30%;
+    padding: 0;
+    position:relative;
+    left:20em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.article-heading .main-heading{
+    text-align: left;
+}
+
+.big-bang{
+    position: relative;
+    left:0;
+    text-align: left;
+}
+/*END of article heading */
+
+/*BEGIN of article image styling*/
+.phy-image{
+   width:100rem;
+   height:50rem;   
+}
+
+.article-image{
+    position: relative;
+    left:15rem;
+    width:80rem;
+}
+
+figcaption#main-image{
+    font-size: 1.65rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span.description {
+    display: inline-block;
+    position: relative;
+    left:0;
+    text-align: left;
+    color: #666666;
+    line-height: 1.25em;
+}
+
+span.credit {
+    font-size: 1.2rem;
+    color: #888888;
+    display: inline-block;
+    position: relative;
+    left: 0;
+    text-align: left;
+}
+/*END of article image styling*/
+
+/*BEGIN Author section styling*/
+.author-name-container {
+    font-size: 1.2rem;
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 2em;
+    color: #121212;
+    left: 25%;
+}
+
+.article-toolbar {
+    position: relative;
+    left: 25%;
+    width: 60%;
+    height: 3.2rem;
+}
+
+.published-date {
+    font-size: 1.2rem;
+    display: inline-block;
+    width:20%;
+    position: relative;
+    left: 0;
+}
+
+.toolbar-icons {
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    width: 50%;
+}
+
+div.toolbar-icons>ul {
+    list-style: none;
+    padding: 0;
+}
+
+.toolbar-icons>ul>li {
+    display: inline-block;
+}
+
+.icon-btn {
+    border-radius: 50%;
+    border: none;
+    height: 3.3rem;
+    width: 3.3rem;
+    background: #eeeeee;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+/*END Author section styling*/
+
+/*BEGIN article section styling*/
+.article-paragraph {
+    display: block;
+    font-size: 1.8rem;
+    font-family: 'Times New Roman';
+    margin-top: 1.3em;
+    width: 48.5%;
+    position: relative;
+    left: 25%;
+    line-height: 1.6em;
+    text-align: left;
+}
+
+#article-footer {
+    font-size:1.1rem;
+    color: #666666;
+}
+/*END article section styling*/
+
+/*BEGIN Editor's picks styling section*/
+.editor-picks-container {
+    width: 20%;
+    position: relative;
+    float: right;
+    right: 2%;
+}
+
+.sidebar-heading {
+    font-size: 1.4rem;
+    border-bottom: 0.5px solid #eeeeee;
+}
+
+div.sidebar-story > p {
+    display: block;
+    font-size: 1.6rem;
+    position: relative;
+    float: right;
+    width: 60%;
+    color: #121212;
+}
+
+div.sidebar-story > p > a {
+    color: inherit;
+    text-decoration: none;
+}
+/*END Editor's picks styling section*/
+
+/*BEGIN Subscribe aside styling section*/
+.subscribe-science-times-container {
+    width: 12.5%;
+    position: relative;
+    float: right;
+    right: 10%;
+}
+
+div.subscribe-science-times-container > p {
+    color: #888888;
+}
+.subscribe-heading {
+    font-size: 1.5rem;
+    margin-bottom:0rem;
+}
+
+.sign-up-btn {
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2em;
+    width: 95%;
+    border-radius: 0.2em;
+    background: #326981;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.sign-up-btn:hover {
+    background: #314191;
+}
+/*END Subscribe aside styling section*/
+
+/*BEGIN of inflation theory section*/
+ div.theory-img-container > iframe{
+    width:75%;
+    height: 76git rem;
+    position: relative;
+    left: 15%;
+    border: none;
+    overflow-y: visible;
+}
+/* END of inflation theory section*/
+
+/*BEGIN of video caption styling*/
+#bicep2 {
+    font-size: 1.4rem;
+    color: #666666;
+    width:45%;
+    margin-top:0.5rem;
+}
+
+.video-caption{
+    position:relative;
+    left:33rem;
+    font-size: 1.4rem;
+    color: #999999;
+    line-height: 0.5em;
+}
+/*END of video caption styling*/
+
+/*BEGIN Read commments button styling*/
+button.read-comments-btn{
+    font-size: 1.5rem;
+    text-align: center;
+    height: 2em;
+    width: 42.5%;
+    border-radius: 0.2em;
+    background: #326981;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button.read-comments-btn:hover {
+    background: #314191;
+}
+/*END Read comments button styling*/
+
+/*BEGIN Recommendations section styling*/
+.recommended-container {
+    width: 60%;
+    position: relative;
+    left: 2%;
+    margin-top: 8rem;
+}
+.recommended-container:before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+.recommended-container:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 90%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+
+.recommended-row {
+    display: block;
+    margin-left: 5%;
+    width: 95%;
+    margin-top: 3rem;
+}
+
+.recommended-item {
+    display:inline-block;
+    width: 30%;
+    position: relative;
+    text-align: justify;
+    margin-right: 2.5%;
+}
+
+.recommended-caption {
+    position:relative;
+    font-size: 1.2rem;
+    color: #999999;
+    line-height: 0.5em;
+}
+/*END Recommendations section styling*/
+
+/*BEGIN of most popular articles*/
+.most-popular{
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    left: 62%;
+    margin-top: -70.6rem;
+}
+.most-popular::before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 2rem; 
+    border-bottom: 1px solid black; 
+}
+
+.most-p-tag {
+    font-size: 1.8rem;
+    padding-bottom: 0.5rem;
+}
+
+.most-p-word{
+    font-size: 1.8rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e2e2;
+}
+/*END most popular articles styling*/
+
+/*BEGIN editor's picks styling*/
+.editors-picks-container {
+    width: 60%;
+    position: relative;
+    left: 2%;
+    margin-top: -18rem;
+    margin-bottom: 5rem;
+}
+/*END editor's picks styling*/
+
+/*BEGIN footer links styling section*/
+.footer1 {
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+.footer2 {
+    width: 70%;
+    position: relative;
+    left: 15%;
+    margin-top: 1rem;
+}
+
+.footer-logo-container {
+    /*background-image: url('../images/logo.png');
+    background-repeat: no-repeat;*/
+    margin-top: 0.25rem;
+    margin-bottom: 1.5rem;
+    width: 25%;
+    height: 3rem;
+}
+
+.footer1:before {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 1rem; 
+    border-top: double #e2e2e2; 
+}
+.footer1:after {
+    content: ""; 
+    display: block; 
+    margin: 0 auto;
+    width: 100%; 
+    padding-top: 1rem; 
+    border-bottom: 1px solid #e2e2e2; 
+}
+
+.footer-column {
+    display:inline-block;
+    position: relative;
+}
+
+.column2 {
+    padding-left: 10rem;
+    top: -14.5rem;
+}
+
+.column3 {
+    padding-left: 10rem;
+    top: -7.3rem;
+}
+
+.column4 {
+    padding-left: 10rem;
+    bottom: 0.04rem;
+}
+
+.column5 {
+    padding-left: 10rem;
+    padding-right: 5rem;
+    bottom: 0.04rem;
+    border-right: 1px solid #e2e2e2;
+}
+
+.final-column {
+    display: inline-block;
+    position: relative;
+    padding-left: 1rem;
+    width: 20%;
+    bottom: 9.2rem;
+}
+
+.link {
+    position: relative;
+    float: right;
+    top: -4.2rem;
+}
+
+.link > a {
+    text-decoration: none;
+}
+
+.link > a:hover {
+    text-decoration: underline;
+}
+
+.pics-links {
+    list-style: none;
+    padding: 0rem;
+}
+
+ul.pics-links > li {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+
+ul.pics-links > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footer-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 1rem;
+}
+
+.special-links {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0rem;
+}
+
+.special-links li{
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #121212;
+} 
+
+.special-links li:last-child {
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.additional-links {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0rem;
+}
+
+.additional-links li {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #121212;
+}
+
+div.footer-column > ul {
+    list-style: none;
+    padding: 0rem;
+}
+
+div.footer-column > ul > li {
+    font-size: 1.45rem;
+    padding: 0.25em 0em;
+}
+
+div.footer-column > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.footer-column > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+.copyright-footer {
+    list-style: none;
+    padding: 0rem;
+    margin-top: 0rem;
+}
+
+ul.copyright-footer > li {
+    display: inline-block;
+    color: #666666;
+    font-size: 1.2rem;
+    padding: 0rem 0.5rem;
+}
+
+ul.copyright-footer > li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*END footer links styling section*/
